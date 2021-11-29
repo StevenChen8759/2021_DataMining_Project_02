@@ -4,6 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+plotly = "*"
+loguru = "*"
+kaleido = "==0.2.1"
+graphviz = "*"
 
 [dev-packages]
 flake8 = "*"
